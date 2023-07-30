@@ -1,11 +1,201 @@
+<!-- ! PLEASE INSERT HERE HOMEPAGE -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery | Yamaha</title>
+    <title>Yamaha</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../javascript/script.js">
+    <link rel="shortcut icon" href="../images/home/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/cf6daf62a4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h2>Gallery</h2>
+    <!-- header section starts -->
+    <div class="header">
+        <img src="../images/home/wallpaper.jpg" style="position: relative; width: 100%;">
+
+
+        <div class="navbar" id="myHeader">
+            <!-- yamaha logo -->
+            <div class="logo"><img src="../images/home/logo.png" alt=""></div>
+
+            <!-- navbar section starts -->
+            <div class="nav_lists">
+                <a class="nav" href="index.html">HOME</a>
+                <a class="nav" href="about.html">ABOUT</a>
+
+                <!-- drppdown lists of bike -->
+                <div class="dropdown">
+                    <a class="nav" href="bike.html">BIKES</a>
+                    <div class="dropdown-content">
+                        <a href="#">R15M</a>
+                        <a href="#">R15V3</a>
+                        <a href="#">R15V4</a>
+                        <a href="#">MT15</a>
+                        <a href="#">MTO9</a>
+                        <a href="#">FZSV2</a>
+                        <a href="#">FZSV3</a>
+                    </div>
+                </div>
+
+
+                <!-- dropdown lists of scooter -->
+                <div class="dropdown">
+                    <a class="nav" href="scooter.html">SCOOTERS</a>
+                    <div class="dropdown-content">
+                        <a href="#">AROX 155</a>
+                        <a href="#">RAY Z 113</a>
+                        <a href="#">FASCINO</a>
+                        <a href="#">RAY ZR 125 FI SERIES</a>
+                    </div>
+                </div>
+
+                <a class="nav" href="gallery.html">GALLERY</a>
+                <a class="nav" href="contact.html">CONTACTS</a>
+            </div>
+            <!-- navbar section ends -->
+
+
+
+            <!-- search term starts here -->
+            <div class="box">
+                <div class="container-2">
+                    <span class="icon">
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <input type="search" id="search" placeholder="Search....">
+                </div>
+            </div>
+            <!-- search term ends here -->
+
+            <!-- login section starts -->
+            <div class="login">
+                <div>
+                    <a class="nav" href="login.html">Login</a>
+                    <a class="nav" href="signup.html">Sign Up</a>
+                </div>
+            </div>
+            <!-- login section ends -->
+
+            <!-- toogle menu bar -->
+            <div class="menubar" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+                <div class="toogle-menu" id="toogle-menu-lists">
+                    <div class="closebar" onclick="closeNav()"><i class="fa fa-times"></i></div>
+                    <a class="toogle" href="index.html">HOME</a>
+                    <a class="toogle" href="about.html">ABOUT</a>
+                    <a class="toogle" href="bike.html">BIKES</a>
+                    <a class="toogle" href="scooter.html">SCOOTERS</a>
+                    <a class="toogle" href="gallery.html">GALLERY</a>
+                    <a class="toogle" href="contact.html">CONTACT</a>
+                    <a class="toogle" href="login.html">Login</a>
+                    <a class="toogle" href="signup.html">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <!-- toogle menubar ends -->
+
+        <div class="slogan"
+            style="position: absolute; width: fit-content; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgba(0, 0, 0, 0.5);">
+            <h1 style="color: white; font-size: 3vw; font-weight: 700; padding: 10px;">POWERFUL PERFORMANCE,</h1>
+            <h2 style="color: blue; font-size: 3vw;">Unmatched fun!</h2>
+            <p style="color: orangered; font-size: 1.5vw; font-weight: 800; padding: 10px;">Ride the ultimate 150 to
+                1000 cc bikes</p>
+        </div>
+    </div>
+    <!-- header section ends -->
+    <!-- * FOOTER SECTIONS STARTS -->
+    <div class="footer">
+        <h1>CONTACT US</h1>
+        <h4>M.A.W Enterprises Pvt. Ltd.</h4>
+        <h4>Teku, Kathmandu</h4>
+        <h4 class="contact">Yamaha Showroom: <a href="">01-5368252</a></h4>
+        <h4 class="contact">Yamaha Spare Parts: <a href="">01-5315594</a></h4>
+        <h4 class="contact">Corporate Building: <a href="">01-5358359</a></h4>
+        <div class="social">
+            <p>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@yamaha.com.np">
+                    Email: info@yamaha.com.np
+                </a>
+            </p>
+            <ul class="icons">
+                <li class="facebook">
+                    <a href="https://www.facebook.com/YamahaNepal/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="instagram">
+                    <a href="https://www.instagram.com/yamaha_nepal/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="youtube">
+                    <a href="https://www.youtube.com/c/YamahaNepal" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FYamaha_Nepal" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="copy">
+                <p>© Copyright Yamaha All Rights Reserved. Crafted by
+                    <span><a href="contact.html">WE</a></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- * FOOTER SECTIONS ENDS -->
 </body>
+<script>
+
+    //  js for sticky nav bar starts
+    window.onscroll = function () { myFunction() };
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+    // js ends for sticky nava bar
+
+    // js for responsive menu bar starts
+    function openNav() {
+        var menuItem = document.getElementById("toogle-menu-lists");
+        if (menuItem.style.display === "none") {
+            menuItem.style.display = "block";
+        } else {
+            menuItem.style.display = "none";
+        }
+    }
+    // js ends for responsive nvabar
+
+    // read more button js starts
+    function readmoreButton() {
+        var readmoreBtn = document.getElementById("readmore-btn");
+        var readmoreContent = document.getElementById("myContent");
+        if (readmoreBtn.innerText === 'Read More') {
+            readmoreBtn.innerText = 'Read Less'
+            readmoreContent.style.display = "block";
+
+        } else {
+            readmoreBtn.innerText = 'Read More'
+            readmoreContent.style.display = "none";
+
+
+        }
+
+    }
+      // read more button js ends here
+</script>
+
 </html>

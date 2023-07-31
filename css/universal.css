@@ -61,11 +61,11 @@ body{
     font-size: 21px;
     border: black 1px solid;
     border-radius: 50%;
-    margin: 0 8px;
+    /* margin: 0 8px; */
 }
 
 .icons i{
-    padding-top: 8px;
+    /* padding-top: 8px; */
     color: white;
 }
 

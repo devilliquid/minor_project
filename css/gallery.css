@@ -1,0 +1,56 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set box-sizing to border-box to include padding and border in the width calculation */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Define a container with Flexbox */
+.container {
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 45px;
+}
+
+/* Define sections with responsive widths using Flexbox */
+/* For large screens */
+.section {
+    flex: 1 0 33.33%;
+    /* 3 sections with equal width (33.33%) */
+    padding: 10px;
+}
+
+/* For medium screens */
+@media screen and (max-width: 768px) {
+    .section {
+        flex: 1 0 100%;
+        /* 2 sections with equal width (50%) */
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 480px) {
+    .section {
+        flex: 1 0 100%;
+        /* 1 section with 100% width */
+    }
+}
+
+.sectioin1 img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.section1:hover img {
+    transform: scale(1.1);
+}

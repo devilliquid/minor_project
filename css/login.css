@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     background-color: #253e6a;
 }
 
-.container{
+.container {
     position: absolute;
     text-align: center;
     top: 50%;
@@ -19,10 +19,10 @@ body{
     border: none;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
 }
 
-.title{
+.title {
     font-size: 30px;
     font-weight: bold;
     padding: 45px;
@@ -30,7 +30,7 @@ body{
     color: #253e6a;
 }
 
-.input-field{
+.input-field {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -38,11 +38,12 @@ body{
 
 }
 
-.email, .password{
+.email,
+.password {
     padding: 15px;
 }
 
-input{
+input {
     padding: 10px;
     font-size: 15px;
     border: none;
@@ -50,12 +51,12 @@ input{
 }
 
 
-.loginbtn{
+.loginbtn {
     text-align: center;
     margin-top: 25px;
 }
 
-.loginbtn button{
+.loginbtn button {
     padding: 5px 0px;
     width: 75%;
     border: none;
@@ -63,31 +64,33 @@ input{
     color: white;
 }
 
-.loginbtn button:hover{
+.loginbtn button:hover {
     background-color: blue;
     cursor: pointer;
 }
 
-p{
+p {
     font-size: 13px;
 }
 
-p a{
+p a {
     text-decoration: none;
     font-weight: bold;
     color: #253e6a;
 }
 
-.links{
+.links {
     margin: 45px;
     margin-top: 10px;
 }
 
-.forgot, .register, .return-home{
+.forgot,
+.register,
+.return-home {
     text-align: center;
     padding: 5px;
 }
 
-p a:hover{
+p a:hover {
     color: red;
 }

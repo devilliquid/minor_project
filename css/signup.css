@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     background-color: #253e6a;
 }
 
-.container{
+.container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,10 +18,11 @@ body{
     border: none;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
 }
 
-.left-div, .right-div{
+.left-div,
+.right-div {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -30,21 +31,22 @@ body{
     /* background-color: red; */
 }
 
-.left-div{
+.left-div {
     text-align: center;
     padding: 10px;
     padding-top: 40px;
     display: flex;
-    flex-direction: column; justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.right-div{
+.right-div {
     padding: 35px;
     background-color: white;
     text-align: center;
 }
 
-.right-div input{
+.right-div input {
     margin: 5px;
     padding: 5px;
     font-size: 13px;
@@ -52,11 +54,11 @@ body{
     border-bottom: solid 2px #253e6a;
 }
 
-.signupbtn{
+.signupbtn {
     margin-top: 20px;
 }
 
-.signupbtn button{
+.signupbtn button {
     padding: 5px 0px;
     width: 75%;
     border: none;
@@ -64,21 +66,21 @@ body{
     color: white;
 }
 
-.signupbtn button:hover{
+.signupbtn button:hover {
     background-color: blue;
     cursor: pointer;
 }
 
-.return-home{
+.return-home {
     padding: 10px;
 }
 
-p a:hover{
+p a:hover {
     color: red;
 }
 
 @media screen and (max-width: 650px) {
-    .left-div{
+    .left-div {
         display: none;
     }
 }

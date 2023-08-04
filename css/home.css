@@ -302,10 +302,12 @@ a{
 }
 
 .top-call{
-    position: relative;
-    display: flex;
-    justify-content: end;
-    margin-right: 30px;
+    position: absolute;
+   bottom: 40px;
+   right: 20px;
+   border-radius: 50%;
+   padding: 10px;
+   background-color: #3b5998;
 }
 
 .top-call button{
@@ -314,7 +316,7 @@ a{
 }
 
 .top-call button i{
-    color: #3b5998;
+    color: white;
     font-size: 35px;
 }
 
@@ -327,6 +329,7 @@ a{
 
 /* footer section css */
 .footer{
+    position: relative;
     background-color: black;
     text-align: center;
     font-family: 'Montserrat', sans-serif;

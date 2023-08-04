@@ -312,26 +312,6 @@ a{
   cursor: pointer;
 }
 
-.top-call{
-  position: relative;
-  display: flex;
-  justify-content: end;
-  margin-right: 30px;
-}
-
-.top-call button{
-  border: none;
-  background-color: transparent;
-}
-
-.top-call button i{
-  color: #3b5998;
-  font-size: 35px;
-}
-
-.top-call button:hover{
-  transform: scale(0.8);
-}
 
 /* footer section css */
 .footer{

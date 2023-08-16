@@ -5,23 +5,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yamaha</title>
-  <link rel="stylesheet" href="../css/home.css">
-  <link rel="shortcut icon" href="../images/home/favicon.png" type="image/x-icon">
-  
+  <title>Contact | Yamaha</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="shortcut icon" href="images/home/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="javascript/script.js">
+  <script src="https://kit.fontawesome.com/cf6daf62a4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- header section starts -->
-  <div class="header" id = "arrowid">
-    <img src="../images/home/wallpaper.jpg" style="position: relative; width: 100%;">
-
+  <div class="header" id="arrowid">
+    <div class="contact" style="text-align: center; padding-top: 80PX;">
+      <h1 style="font-weight: 1000; font-size: 40px; color: #253E6A;">CONTACT US</h1>
+    </div>
 
     <div class="navbar" id="myHeader">
       <!-- yamaha logo -->
       <div class="logo">
         <a href="index.html">
-          <img src="../images/home/logo.png" alt="">
+          <img src="images/home/logo.png" alt="">
         </a>
       </div>
 
@@ -75,6 +78,8 @@
       </div>
       <!-- search term ends here -->
 
+
+
       <!-- login section starts -->
       <div class="login">
         <div>
@@ -83,6 +88,8 @@
         </div>
       </div>
       <!-- login section ends -->
+
+
 
       <!-- toogle menu bar -->
       <div class="menubar" onclick="openNav()">
@@ -101,71 +108,86 @@
       </div>
     </div>
     <!-- toogle menubar ends -->
-
-    <div class="slogan"
-      style="position: absolute; width: fit-content; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgba(0, 0, 0, 0.5);">
-      <h1 style="color: white; font-size: 3vw; font-weight: 700; padding: 10px;">POWERFUL PERFORMANCE,</h1>
-      <h2 style="color: blue; font-size: 3vw;">Unmatched fun!</h2>
-      <p style="color: orangered; font-size: 1.5vw; font-weight: 800; padding: 10px;">Ride the ultimate 150 to 1000 cc
-        bikes</p>
-    </div>
   </div>
   <!-- header section ends -->
 
-
-
-  <!-- products icons linkd -->
-  <div class="linked-icons">
-    <div class="bikes-linked-icon">
-      <a href="bike.html">
-        <img style="width: 100%;" src="../images/home/r15.png" alt="bikes-icon">
-      </a>
+  <!-- contact section starts -->
+  <div class="container-3">
+    <div class="gyanendra"><img style="position: relative; width: 100%;" src="images/home/gyanendra.jpg" alt="">
     </div>
 
-    <div class="scooters-linked-icon">
-      <a href="scooter.html">
-        <img style="width: 100%;" src="../images/home/Fascino.png" alt="">
-      </a>
-    </div>
-
-    <div class="gallery-linked-icon">
-      <a href="gallery.html">
-        <img style="width: 100%;" src="../images/home/gallery.png" alt="gallery">
-      </a>
+    <div class="bio" style="margin-left: 15%; text-align: center; line-height: 2; font-size: 15px;">
+      <h2>Gyanendra Chaudhary</h2>
+      <p>Born on the 5th of November 2000 at Udayapur, Gaighat, Nepal
+        <br><br>
+        <span style="font-weight: bold;">Group Member</span>
+        <br>
+        Contact: 9819945110
+        <br>
+        Email: gyanuchy32@gmail.com
+      </p>
     </div>
   </div>
-  <!-- linked icons section ends -->
 
+  <div class="container-4">
+    <div style="margin-right: 15%; text-align: center; line-height: 2; font-size: 15px;">
+      <h2>Sulav Khatri</h2>
+      <p>Born on the 5th of November 2000 at Gorkha, Nepal
+        <br><br>
+        <span style="font-weight: bold;">CEO of the Company</span>
+        <br>
+        Contact: 9849988334, 9823487976
+        <br>
+        Email: sulav2015@gmail.com
+      </p>
+    </div>
 
+    <div class="sulav"><img style="position: relative; width: 100%;" src="images/home/sulav.jpg" alt="">
+    </div>
+  </div>
 
-  <!-- featured products section starts -->
-  <div class="featured-products-container" style="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); padding: 10px;">
-    <div class="featured-section">
-      <h1 class="featured-section-tittle">FEATURED PRODUCTS</h1>
+  <div class="container-5">
+    <div class="roshan"><img style="position: relative; width: 100%;" src="images/home/police.jpg" alt="">
+    </div>
 
-      <div class="featured-product-list">
-        <div class="aexor-155">
-          <img style="width: 100%;" src="../images/home/aexor 155.png" alt="Aexor 155"><span class="products-name">Aexor
-            155</span>
+    <div style="margin-left: 15%; text-align: center; line-height: 2; font-size: 15px;">
+      <h2>Roshan Sunuwar</h2>
+      <p>Born on the 24th of Jan 2004 at Ramechhap, Nepal
+        <br><br>
+        <span style="font-weight: bold;">Group Manager</span>
+        <br>
+        Contact: 9880317830
+        <br>
+        Email: roshansunuwar@gmail.com
+      </p>
+    </div>
+  </div>
+
+  <div class="container-6">
+    <div class="title">
+      <h1 style="font-weight: bolder; color: #253E6A; padding: 25px;">Query</h1>
+    </div>
+
+    <form action="submit">
+      <div class="query">
+        <div class="input">
+          <input type="text" placeholder="Name" required>
+          <input type="text" placeholder="Address" required>
+          <input type="email" placeholder="Email" required>
+          <input type="number" placeholder="Phone" required>
         </div>
 
-        <div class="fz-x">
-          <img style="width: 100%;" src="../images/home/fz-x.png" alt="fz-x">
-          <span class="products-name">FZ-X</span>
-        </div>
-
-        <div class="fzv3">
-          <img style="width: 100%;" src="../images/home/fzv3.png" alt="fzv3"><span class="products-name">FZ V3</span>
-        </div>
-
-        <div class="r15m">
-          <img style="width: 100%;" src="../images/home/r15m.png" alt="r15m"><span class="products-name">R15 V4</span>
+        <div class="message">
+          <p><textarea class="textarea" id="textarea" placeholder="Your Message"></textarea>
+          </p>
         </div>
       </div>
-    </div>
+      <input class="submitbtn" type="submit">
+    </form>
   </div>
-  <!-- featured product section ends here -->
 
+ 
+  <!-- contact section ends -->
 
   <!-- * FOOTER SECTIONS STARTS -->
   <div class="footer">
@@ -208,19 +230,59 @@
           <span><a href="contact.html">WE</a></span>
         </p>
       </div>
-      <div id = "button" class="top-call">
-        <button>
-          <a  href="#arrowid" ><i class="fa-solid fa-arrow-up "></i></a>
-        </button>
-      </div>
+    </div>
+    <div class="top-call">
+      <button>
+        <a href="#arrowid"><i class="fa-solid fa-arrow-up"></i></a>
+      </button>
     </div>
   </div>
   <!-- * FOOTER SECTIONS ENDS -->
-  
 </body>
+<script>
 
-<script src = "../js/script.js" ></script>
-<script src="https://kit.fontawesome.com/cf6daf62a4.js" crossorigin="anonymous"></script>
+  //  js for sticky nav bar starts
+  window.onscroll = function () { myFunction() };
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
 
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  // js ends for sticky nava bar
+
+  // js for responsive menu bar starts
+  function openNav() {
+    var menuItem = document.getElementById("toogle-menu-lists");
+    if (menuItem.style.display === "none") {
+      menuItem.style.display = "block";
+    } else {
+      menuItem.style.display = "none";
+    }
+  }
+  // js ends for responsive nvabar
+
+  // read more button js starts
+  function readmoreButton() {
+    var readmoreBtn = document.getElementById("readmore-btn");
+    var readmoreContent = document.getElementById("myContent");
+    if (readmoreBtn.innerText === 'Read More') {
+      readmoreBtn.innerText = 'Read Less'
+      readmoreContent.style.display = "block";
+
+    } else {
+      readmoreBtn.innerText = 'Read More'
+      readmoreContent.style.display = "none";
+
+
+    }
+
+  }
+    // read more button js ends here
+</script>
 
 </html>

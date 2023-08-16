@@ -7,9 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yamaha</title>
   <link rel="stylesheet" href="../css/home.css">
-  <link rel="stylesheet" href="../javascript/script.js">
   <link rel="shortcut icon" href="../images/home/favicon.png" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/cf6daf62a4.js" crossorigin="anonymous"></script>
+  
 </head>
 
 <body>
@@ -209,60 +208,19 @@
           <span><a href="contact.html">WE</a></span>
         </p>
       </div>
-
-      <div class="top-call">
+      <div id = "button" class="top-call">
         <button>
-          <a href="#arrowid"><i class="fa-solid fa-arrow-up"></i></a>
+          <a  href="#arrowid" ><i class="fa-solid fa-arrow-up "></i></a>
         </button>
       </div>
     </div>
   </div>
   <!-- * FOOTER SECTIONS ENDS -->
+  
 </body>
-<script>
 
-  //  js for sticky nav bar starts
-  window.onscroll = function () { myFunction() };
-  var header = document.getElementById("myHeader");
-  var sticky = header.offsetTop;
+<script src = "../js/script.js" ></script>
+<script src="https://kit.fontawesome.com/cf6daf62a4.js" crossorigin="anonymous"></script>
 
-  function myFunction() {
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
-    }
-  }
-  // js ends for sticky nava bar
-
-  // js for responsive menu bar starts
-  function openNav() {
-    var menuItem = document.getElementById("toogle-menu-lists");
-    if (menuItem.style.display === "none") {
-      menuItem.style.display = "block";
-    } else {
-      menuItem.style.display = "none";
-    }
-  }
-  // js ends for responsive nvabar
-
-  // read more button js starts
-  function readmoreButton() {
-    var readmoreBtn = document.getElementById("readmore-btn");
-    var readmoreContent = document.getElementById("myContent");
-    if (readmoreBtn.innerText === 'Read More') {
-      readmoreBtn.innerText = 'Read Less'
-      readmoreContent.style.display = "block";
-
-    } else {
-      readmoreBtn.innerText = 'Read More'
-      readmoreContent.style.display = "none";
-
-
-    }
-
-  }
-    // read more button js ends here
-</script>
 
 </html>

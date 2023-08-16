@@ -302,7 +302,8 @@ a{
 }
 
 .top-call{
-    position: absolute;
+    display: none;
+    position: fixed;
    bottom: 40px;
    right: 20px;
    border-radius: 50%;
@@ -415,6 +416,9 @@ a{
     color: #ed1c24;
     font-weight: bold;
 }
+/* #button{
+    display:none;
+} */
 /* footer section ends */
 
 @media screen and (max-width: 1200px) {

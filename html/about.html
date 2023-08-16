@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="../css/home.css">
   <link rel="stylesheet" href="../css/about.css">
   <link rel="shortcut icon" href="../images/home/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="../javascript/script.js">
-  <script src="https://kit.fontawesome.com/cf6daf62a4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -260,53 +258,14 @@
     </div>
 
     <div class="top-call">
-        <button><a href="#arrowid"><i class="fa-solid fa-arrow-up"></i></a></button>
-
+        <button><a href="#arrowid"><i class="fa-solid fa-arrow-up"></i></a>
+        </button>
     </div>
   </div>
   <!-- * FOOTER SECTIONS ENDS -->
-
-  <!-- js section starts here -->
-  <script>
-
-    //  js for sticky nav bar starts
-    window.onscroll = function () { myFunction() };
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
-    // js ends for sticky nava bar
-
-    // js for responsive menu bar starts
-    function openNav() {
-      var menuItem = document.getElementById("toogle-menu-lists");
-      if (menuItem.style.display === "none") {
-        menuItem.style.display = "block";
-      } else {
-        menuItem.style.display = "none";
-      }
-    }
-    // js ends for responsive nvabar
-
-    // read more button js starts
-    function readmoreButton() {
-      var moreContent = document.getElementById("myContent");
-      var readmoreBtn = document.getElementById("readlessbtn");
-      if (moreContent.style.display === "none") {
-        moreContent.style.display = "block";
-      }
-      else {
-        moreContent.style.display = "none";
-      }
-    }
-    // read more button js ends here
-  </script>
 </body>
+
+<script src = "../js/script.js" ></script>
+<script src="https://kit.fontawesome.com/cf6daf62a4.js" crossorigin="anonymous"></script>
 
 </html>

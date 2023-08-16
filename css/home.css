@@ -315,22 +315,14 @@ a {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-.top-call{
+.top-call {
     display: none;
     position: fixed;
-   bottom: 40px;
-   right: 20px;
-   border-radius: 50%;
-   padding: 10px;
-   background-color: #3b5998;
-=======
-.top-call {
-    position: relative;
-    display: flex;
-    justify-content: end;
-    margin-right: 30px;
->>>>>>> 83ee80031401344f0e451d00bea200a6906b26d8
+    bottom: 40px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #3b5998;
 }
 
 .top-call button {
@@ -338,13 +330,8 @@ a {
     background-color: transparent;
 }
 
-<<<<<<< HEAD
-.top-call button i{
-    color: white;
-=======
 .top-call button i {
-    color: #3b5998;
->>>>>>> 83ee80031401344f0e451d00bea200a6906b26d8
+    color: white;
     font-size: 35px;
 }
 
@@ -357,12 +344,8 @@ a {
 
 
 /* footer section css */
-<<<<<<< HEAD
-.footer{
-    position: relative;
-=======
 .footer {
->>>>>>> 83ee80031401344f0e451d00bea200a6906b26d8
+    position: relative;
     background-color: black;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -448,13 +431,11 @@ a {
     color: #ed1c24;
     font-weight: bold;
 }
-<<<<<<< HEAD
-/* #button{
-    display:none;
-} */
-=======
 
->>>>>>> 83ee80031401344f0e451d00bea200a6906b26d8
+#button {
+    display: none;
+}
+
 /* footer section ends */
 
 @media screen and (max-width: 1200px) {
